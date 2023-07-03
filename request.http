@@ -1,4 +1,4 @@
-@subdominio = sub-dominio-render
+@subdominio = ec-2-serviciosweb
 
 ##############################
 # Requests SIN base de datos #

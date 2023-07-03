@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.birzavit.Birzavitec2.entity.Idat;
 
 @RestController
-@RequestMapping(path="idat")
+@RequestMapping()
 public class IdatController {
     // private static final String template = "ALUMNO, %s!";
 	private final AtomicLong counter = new AtomicLong();
