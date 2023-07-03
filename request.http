@@ -42,24 +42,24 @@ POST https://{{subdominio}}.onrender.com/api/curso/nuevo HTTP/1.1
 Content-Type: application/json
 
 {
-    "nombre": "DSW1 odio",
+    "nombre": "DSW1",
     "creditos": 2
 }
 
 ###
 # ACTUALIZAR
-PUT https://{{subdominio}}.onrender.com/api/curso/actualizar/52 HTTP/1.1
+PUT https://{{subdominio}}.onrender.com/api/curso/actualizar/2 HTTP/1.1
 Content-Type: application/json
 
 {
-    "id": 52,
-    "nombre": "DSW1 UPDATE",
+    "id": 2,
+    "nombre": "DSW1 UPDATE!!!",
     "creditos": 2
 }
 
 ###
 # 6: Eliminar Curso
-DELETE https://{{subdominio}}.onrender.com/api/curso/eliminar/52 HTTP/1.1
+DELETE https://{{subdominio}}.onrender.com/api/curso/eliminar/2 HTTP/1.1
 
 
 ###

@@ -1,6 +1,5 @@
 com\birzavit\Birzavitec2\service\CursoService.class
 com\birzavit\Birzavitec2\service\CursoServiceImpl.class
-com\birzavit\Birzavitec2\entity\Idat.class
 com\birzavit\Birzavitec2\repository\CursoRepository.class
 com\birzavit\Birzavitec2\entity\Curso.class
 com\birzavit\Birzavitec2\dto\CursoDTO.class
