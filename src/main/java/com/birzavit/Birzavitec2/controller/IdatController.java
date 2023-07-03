@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.birzavit.Birzavitec2.entity.Idat;
 
 @RestController
-@RequestMapping("/idat")
+@RequestMapping()
 public class IdatController {
     // private static final String template = "ALUMNO, %s!";
 	private final AtomicLong counter = new AtomicLong();
@@ -19,12 +19,12 @@ public class IdatController {
 		return new Idat(counter.incrementAndGet(), String.format( name));
 	}
 
-	@GetMapping("/codigo")
+	@GetMapping("/idat/codigo")
 	public Idat greeting2(@RequestParam(value = "name", defaultValue = "A20200702") String name) {
 		return new Idat(counter.incrementAndGet(), String.format( name));
 	}
 
-	@GetMapping("/nombre-completo")
+	@GetMapping("/idat/nombre-completo")
 	public Idat greeting3(@RequestParam(value = "name", defaultValue = "BIRZAVIT ALVAREZ PINTO") String name) {
 		return new Idat(counter.incrementAndGet(), String.format( name));
 	}
