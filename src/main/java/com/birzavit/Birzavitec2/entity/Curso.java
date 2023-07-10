@@ -17,8 +17,8 @@ public class Curso {
     @Column(name = "creditoscurso")
     private Integer creditos;
 
-    @ManyToOne(cascade=CascadeType.ALL)
-    @JoinColumn(name="id_carrera") //parametro de relación puede ser cualquier nombre
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "id_carrera") //parametro de relación puede ser cualquier nombre
     private Carrera carrera;
 
     public Curso() {
@@ -56,7 +56,7 @@ public class Curso {
         this.carrera = carrera;
     }
 
-   
     
+
     
 }

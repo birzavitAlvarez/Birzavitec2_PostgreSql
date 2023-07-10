@@ -33,3 +33,20 @@ GET {{server}}/profile/cursos
 
 ### buscar por nombre si están separados por espacio en blanco usar el +
 GET {{server}}/cursos/search/findByNombre?nombre=Desarrollo+BackEnd
+
+
+######################## CARRERA #################
+GET {{server}}/carreras
+###
+POST {{server}}/carreras
+Content-Type: application/json
+
+{"nombre": "Web"}
+
+###
+GET {{server}}/cursos/2/carrera
+###
+GET {{server}}/carreras/1
+###
+GET {{server}}/carreras/1/cursos
+###

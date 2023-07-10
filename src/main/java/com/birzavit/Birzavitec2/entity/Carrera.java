@@ -15,8 +15,8 @@ public class Carrera {
     @Column(nullable=false,length=40)
     private String nombre;
 
-    @OneToMany(targetEntity=Curso.class,mappedBy="carrera")
-    @OrderBy("nombre asc")
+    @OneToMany(targetEntity = Curso.class, mappedBy = "carrera")
+    @OrderBy("nombre ASC")
     private Set<Curso> cursos = new HashSet<Curso>();
 
     public Carrera() {
@@ -45,6 +45,8 @@ public class Carrera {
     public void setCursos(Set<Curso> cursos) {
         this.cursos = cursos;
     }
+
+    
 
     
     

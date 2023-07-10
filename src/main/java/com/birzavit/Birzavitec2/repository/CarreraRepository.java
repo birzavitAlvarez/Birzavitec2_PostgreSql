@@ -8,7 +8,7 @@ import com.birzavit.Birzavitec2.entity.Carrera;
 import java.util.List;
 
 
-@RepositoryRestResource(collectionResourceRel = "carrera", path = "carreras")
+@RepositoryRestResource(collectionResourceRel = "carreras", path = "carreras")
 public interface CarreraRepository extends PagingAndSortingRepository<Carrera, Integer>,CrudRepository<Carrera, Integer> {
     
     List<Carrera> findByNombre(@Param("nombre") String nombre);
