@@ -31,6 +31,12 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency> -->
+
+		<!-- NUEVA DEPEDENCIA -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-rest</artifactId>
+		</dependency>
 		
 		<dependency>
 			<groupId>org.postgresql</groupId>

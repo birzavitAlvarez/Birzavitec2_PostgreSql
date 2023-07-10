@@ -1,8 +1,5 @@
-com\birzavit\Birzavitec2\service\CursoService.class
-com\birzavit\Birzavitec2\service\CursoServiceImpl.class
-com\birzavit\Birzavitec2\repository\CursoRepository.class
 com\birzavit\Birzavitec2\entity\Curso.class
+com\birzavit\Birzavitec2\service\CursoService.class
 com\birzavit\Birzavitec2\dto\CursoDTO.class
-com\birzavit\Birzavitec2\controller\CursoController.class
-com\birzavit\Birzavitec2\controller\IdatController.class
+com\birzavit\Birzavitec2\repository\CursoRepository.class
 com\birzavit\Birzavitec2\Birzavitec2Application.class
