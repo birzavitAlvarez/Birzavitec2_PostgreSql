@@ -1,0 +1,35 @@
+@server = https://ec-2-serviciosweb.onrender.com
+###
+GET {{server}}
+###
+GET {{server}}/cursos
+###
+GET {{server}}/cursos/2
+###
+GET {{server}}/cursos?size=2
+###
+GET {{server}}/cursos?size=2&page=1
+###
+GET {{server}}/cursos?sort=nombre,desc
+###
+GET {{server}}/cursos?sort=nombre,asc
+###
+GET {{server}}/cursos?sort=creditos,desc
+###
+POST {{server}}/cursos
+Content-Type: application/json
+
+{"nombre": "Compiladores", "creditos": 5}
+###
+DELETE {{server}}/cursos/252
+### PATCH es Actualizar y el campo que deseas modificar
+PATCH {{server}}/cursos/213
+Content-Type: application/json
+
+{"creditos": 1}
+
+###
+GET {{server}}/profile/cursos
+
+### buscar por nombre si están separados por espacio en blanco usar el +
+GET {{server}}/cursos/search/findByNombre?nombre=Desarrollo+BackEnd
