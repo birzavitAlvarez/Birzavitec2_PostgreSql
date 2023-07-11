@@ -1,5 +1,4 @@
 package com.birzavit.Birzavitec2.repository;
-
 import com.birzavit.Birzavitec2.entity.Curso;
 
 import org.springframework.data.repository.CrudRepository;
