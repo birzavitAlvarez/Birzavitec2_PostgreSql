@@ -43,10 +43,10 @@ Content-Type: application/json
 
 {"nombre": "Web"}
 
-###
+### entro cursos codigo 2 y me trae la carrera que coincida
 GET {{server}}/cursos/2/carrera
 ###
-GET {{server}}/carreras/1
-###
-GET {{server}}/carreras/1/cursos
+GET {{server}}/carreras/2
+### entro a carreras con codigo 1 y me trae todos los cursos que coincidan
+GET {{server}}/carreras/2/cursos
 ###
